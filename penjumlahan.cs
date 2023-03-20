@@ -19,7 +19,7 @@ namespace modul5_1302210125
             hasil = hasil + a;
             hasil = hasil + b;
             hasil = hasil + c;
-            Console.WriteLine("maka tiga input data angka");
+            Console.WriteLine("maka tiga input data angka" + a + " " + b + " " + " " + c + "adalah" + hasil);
         }
     }
 }
