@@ -1,17 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace modul5_1302210125
 {
-    internal class penjumlahan
+    internal class penjumlahan<T>
     {
-        public void jumlahTigaAngka<T>(T nama)
+        private T a;
+        private T b;
+        private T c;
+        public void jumlahTigaAngka(T a, T b ,T c)
         {
-            Console.WriteLine("13", "02", "21");
+            dynamic hasil = 0;
 
+            hasil = hasil + a;
+            hasil = hasil + b;
+            hasil = hasil + c;
+            Console.WriteLine("maka tiga input data angka");
         }
     }
 }
